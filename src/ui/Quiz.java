@@ -10,16 +10,16 @@ import ui.ScoreWriter;
 public class Quiz implements ActionListener{
 
     String[] questions = 	{
-            "Which company created Java?",
-            "Which year was Java created?",
-            "What was Java originally called?",
-            "Who is credited with creating Java?"
+            "Who is the lecturer of CMP 201?",
+            "Which year are we in?",
+            "Who invented Terravison?",
+            "Who is the world's richest man?"
     };
     String[][] options = 	{
-            {"Sun Microsystems","Starbucks","Microsoft","Alphabet"},
-            {"1989","1996","1972","1492"},
-            {"Apple","Latte","Oak","Koffing"},
-            {"Steve Jobs","Bill Gates","James Gosling","Mark Zuckerburg"}
+            {"Mr Barka", "Mr Dan", "Mr Mikel", "Mr Isaac"},
+            {"2000", "2023", "1972", "1492"},
+            {"Apple", "Google", "Art.Com", "Faraday"},
+            {"Steve Jobs", "Bill Gates", "Daniel Ogbo", "Mark Zuckerburg"}
     };
     char[] answers = 		{
             'A',
