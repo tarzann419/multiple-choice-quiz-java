@@ -4,6 +4,8 @@ package ui;
 import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
+import ui.ScoreWriter;
+
 
 public class Quiz implements ActionListener{
 
@@ -289,6 +291,9 @@ public class Quiz implements ActionListener{
 
         frame.add(number_right);
         frame.add(percentage);
+
+        ScoreWriter.write_score_to_file(result);
+
 
     }
 }
